@@ -15,5 +15,7 @@
   "devDependencies": {
     "jest": "^27.3.1"
   },
-  "___comment_" : "npm install jest --save-dev"
+  "___comment_" : "npm install jest --save-dev",
+  "___testcomment_" : " npm test Employee "
+ 
 }
