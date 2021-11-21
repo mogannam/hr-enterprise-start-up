@@ -2,6 +2,11 @@
 // let int_totalEmployee = 0;
 // const employeeManager = new Manager(name='Picard', id=1, email='picard@myfirm.com', role='Manager', officeNumber=33);
 
+const inquirer = require("inquirer");
+const EngineerQuestions = require('./lib/EngineerQuestions');
+const ManagerQuestions = require('./lib/ManagerQuestions');
+const InternQuestions = require('./lib/InternQuestions');
+
 // console.log(employeeManager.getInfo().officeNumber)
 
 // const Question = require('./lib/Question');
@@ -20,19 +25,27 @@
 // console.log('====')
 // console.log(EmployeeQuestionsInst.getQuestions())
 
-const ManagerQuestions = require('./lib/ManagerQuestions');
+
 const ManagerQuestionsInst = new ManagerQuestions(role='Manager')
 console.log('111')
-console.log(ManagerQuestionsInst.getQuestions())
+//console.log(ManagerQuestionsInst.getQuestions())
+console.log(ManagerQuestionsInst.getInquirerQuestions())
 
-const EngineerQuestions = require('./lib/EngineerQuestions');
-const EngineerQuestionsInst = new EngineerQuestions(role='Engineer')
-console.log('222')
-console.log(EngineerQuestionsInst.getQuestions())
+//console.log("*****")
+//console.log(ManagerQuestionsInst.getQuestions()[0].getQuestion())
 
-const InternQuestions = require('./lib/InternQuestions');
-const InternQuestionsInst = new InternQuestions(role='Intern')
-console.log('3333')
-console.log(InternQuestionsInst.getQuestions())
+
+// const EngineerQuestionsInst = new EngineerQuestions(role='Engineer')
+// console.log('222')
+// console.log(EngineerQuestionsInst.getQuestions())
+
+
+// const InternQuestionsInst = new InternQuestions(role='Intern')
+// console.log('3333')
+// console.log(InternQuestionsInst.getQuestions())
+
+inquirer.prompt(ManagerQuestionsInst.getInquirerQuestions())
+inquirer.prompt(new EngineerQuestions(role='Engineer').getQuestions())
+//inquirer.prompt(new InternQuestions(role='Intern').getQuestions())
 
 
