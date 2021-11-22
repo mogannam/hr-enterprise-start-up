@@ -31,7 +31,7 @@
  <ul><li><a href="https://github.com/mogannam/hr-enterprise-start-up.git">Code on GitHub</a> </li>
   <li><a href="https://github.com/mogannam/hr-enterprise-start-up/blob/main/dist/index.html">HTML example of Org Chart</a></li>
   <li>Clone the projecct here: git@github.com:mogannam/hr-enterprise-start-up.git </li>
-  <li> <video> <source src="https://github.com/mogannam/hr-enterprise-start-up/blob/main/mockup.mp4"> </source> <video></li>
+  <li> <video width="320" height="240" > <source type="video/mp4" src="https://github.com/mogannam/hr-enterprise-start-up/blob/main/mockup.mp4">Demo Video </source> </video></li>
   </ul> 
  
 
