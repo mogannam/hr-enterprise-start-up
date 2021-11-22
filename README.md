@@ -33,7 +33,7 @@
   <li>Clone the projecct here: git@github.com:mogannam/hr-enterprise-start-up.git </li>
   </ul> 
 
-  ![Demo] (https://github.com/mogannam/hr-enterprise-start-up/blob/main/mockup.mp4) 
+  [![Video Demo of Project](https://github.com/mogannam/hr-enterprise-start-up/raw/main/mockup.mp4)] 
  
 
 # Test 
